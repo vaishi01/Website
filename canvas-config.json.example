@@ -1,0 +1,7 @@
+{
+  "server": "canvas.ucsc.edu",
+  "token": "YOUR_CANVAS_API_TOKEN",
+  "course": "YOUR_COURSE_ID",
+  "tutor_groups": ["Tutors", "Group Tutors"]
+}
+

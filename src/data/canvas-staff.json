@@ -1,0 +1,92 @@
+{
+  "course_name": "Artificial Intelligence-F25",
+  "instructors": [
+    {
+      "name": "Niloofar Montazeri",
+      "email": "",
+      "id": "105080"
+    }
+  ],
+  "tas": [
+    {
+      "name": "Soren Larsen",
+      "email": "",
+      "id": "44548",
+      "sections": ""
+    },
+    {
+      "name": "Batuhan Salih",
+      "email": "",
+      "id": "45433",
+      "sections": ""
+    },
+    {
+      "name": "Mude Hui",
+      "email": "",
+      "id": "96562",
+      "sections": ""
+    }
+  ],
+  "tutors": [
+    {
+      "name": "Vishwa Vijayasankar",
+      "email": "",
+      "id": "83264"
+    },
+    {
+      "name": "Bhagavan Carollo",
+      "email": "",
+      "id": "85264"
+    },
+    {
+      "name": "Isaac To",
+      "email": "",
+      "id": "85370"
+    },
+    {
+      "name": "Rajat Maheshwari",
+      "email": "ramahesh@ucsc.edu",
+      "id": "85787"
+    },
+    {
+      "name": "Catie Bronte",
+      "email": "",
+      "id": "86866"
+    },
+    {
+      "name": "Trisha Moorkoth",
+      "email": "",
+      "id": "86961"
+    },
+    {
+      "name": "Dhruv Shukla",
+      "email": "dhshukla@ucsc.edu",
+      "id": "87235"
+    },
+    {
+      "name": "Ashwin Nagarajan",
+      "email": "",
+      "id": "99083"
+    },
+    {
+      "name": "Evan Nguyen",
+      "email": "",
+      "id": "100051"
+    },
+    {
+      "name": "Tejas Polu",
+      "email": "",
+      "id": "100081"
+    },
+    {
+      "name": "Raymon Sadhra",
+      "email": "",
+      "id": "103679"
+    },
+    {
+      "name": "Aditya Sarin",
+      "email": "",
+      "id": "112326"
+    }
+  ]
+}

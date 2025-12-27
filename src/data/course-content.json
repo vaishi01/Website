@@ -1,0 +1,310 @@
+{
+  "courseDescription": {
+    "title": "Course Description",
+    "icon": "BookOpen",
+    "iconColor": "green",
+    "description": "This course provides an introduction to Artificial Intelligence (AI). Topics include knowledge representation, reasoning, and learning. Emphasis will be on algorithms for search, inference, constraint satisfaction, and optimization. The general format of the course will be in-person with asynchronous lecture recordings posted on Canvas.",
+    "topicsCovered": {
+      "title": "Topics Covered",
+      "content": "Agents, search, constraint satisfaction, game playing, utility theory, decision-making under uncertainty, reinforcement learning, probabilistic reasoning, machine learning, and other topics as time permits."
+    },
+    "textbook": {
+      "title": "Textbook",
+      "content": "<strong><a href=\"https://aima.cs.berkeley.edu/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 dark:text-blue-400 hover:underline\">Russell and Norvig, Artificial Intelligence: A Modern Approach</a></strong>, Prentice-Hall, Fourth Edition (Purple Book). ISBN 0-13-604259-7 is the recommended text. You may also use the third edition (Blue Book) or, at your own risk, the second edition (2E - aka the Green Book). The second edition has most of what you need; the third and fourth editions have improved pseudo-code and better sections on learning. The first edition (Red Book) is too different to use."
+    },
+    "prerequisites": {
+      "title": "Prerequisites",
+      "description": "Students should have working knowledge of probability, linear algebra, and ability to (learn to) program in Python.",
+      "items": [
+        {
+          "text": "For a refresher on probability; I recommend the ",
+          "link": {
+            "text": "MIT OpenCourseware probability course",
+            "url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/"
+          },
+          "note": ". There are lecture videos, notes, and online slides."
+        },
+        {
+          "text": "For a refresher on linear algebra; I recommend ",
+          "link": {
+            "text": "Gil Strang's MIT Linear Algebra lectures",
+            "url": "https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1"
+          },
+          "note": ". They are all on Youtube, the first 1-3 lectures are sufficient background."
+        },
+        {
+          "text": "For learning python, one good resource is ",
+          "link": {
+            "text": "Think Python",
+            "url": "https://www.greenteapress.com/thinkpython/html/"
+          },
+          "note": " (the first few chapters)."
+        }
+      ]
+    }
+  },
+  "communicationChannels": {
+    "title": "Communication Channels",
+    "icon": "MessageSquare",
+    "iconColor": "purple",
+    "announcementBox": {
+      "title": "Important announcements will be through Canvas Announcements",
+      "description": "You are responsible for reading them as they can contain important logistics information."
+    },
+    "description": "Ed Discussion will be used mainly for Q&A.",
+    "guidelines": {
+      "title": "This a very large class. In order to get a response in a reasonable time, please use the communication channels below based on the specific issue you need to resolve:",
+      "items": [
+        {
+          "text": "<strong>Lecture slides/book questions</strong> → Ed Discussion, Instructor and TA office hours"
+        },
+        {
+          "text": "<strong>Assignment questions</strong> → Ed Discussion, TA office hours"
+        },
+        {
+          "text": "<strong>Personal concerns</strong> → Meet the instructor after class or in office hours"
+        },
+        {
+          "text": "<strong>Urgent matters</strong> → Email with subject starting with \"URGENT:\" For non-personal urgent matters, please make sure you include TAs as well."
+        }
+      ]
+    }
+  },
+  "qaEtiquette": {
+    "title": "QA Etiquette",
+    "icon": "AlertCircle",
+    "iconColor": "orange",
+    "description": "We will use Ed Discussion for QA (Link on top of this page as well as the navigation bar on the left). We will keep you posted if that changes. Irrespective of which platform we use for discussion, there are a few baselines for good Ed Discussion etiquette:",
+    "items": [
+      "Please be <strong>respectful</strong> and <strong>constructive</strong> in all communications, whether to students or to teaching staff.",
+      "Before asking a question, check to see if it has already been answered, and if so, remember to link to previously posted useful answers.",
+      "Further, please be sure to <strong>take some time to think about your problem</strong> or issue before posting. Consider using the <strong>\"30 minute rule\"</strong>: spend at least 30 minutes trying to figure things out on your own before posting. We definitely want you to get the help you need, as soon as possible, but occasionally we see students who post as soon as they have some small issue or hiccup. The point of class assignments is for you to have to think, and sometimes that's hard (but most of all, it's fun too!",
+      "On the other hand, <strong>clarification questions</strong>, etc. are <strong>totally welcomed</strong>, and should be asked immediately.",
+      "<strong class=\"text-red-600 dark:text-red-400\">UNDER NO CIRCUMSTANCES</strong> should <strong>code</strong> be posted on Ed Discussion. If you need help with code, you should attend office hours or the discussion sections.",
+      "Also, remember that while you may post <strong>anonymously</strong> to the class, the <strong>instructors always see who is posting</strong>. Again, the goal is for Ed Discussion to be a useful, pleasant, positive environment for all!"
+    ]
+  },
+  "grading": {
+    "title": "Grading",
+    "icon": "GraduationCap",
+    "iconColor": "cyan",
+    "gradeComponents": {
+      "title": "Grade Components",
+      "items": [
+        {
+          "item": "Class Participation + In-Class Exercise",
+          "weight": "5%"
+        },
+        {
+          "item": "Worksheets",
+          "weight": "25%"
+        },
+        {
+          "item": "Quizzes",
+          "weight": "25%"
+        },
+        {
+          "item": "Programming Assignments",
+          "weight": "25%"
+        },
+        {
+          "item": "Final",
+          "weight": "20%"
+        },
+        {
+          "item": "Total",
+          "weight": "100%",
+          "isTotal": true
+        }
+      ]
+    },
+    "gradeScale": {
+      "title": "Grade Scale",
+      "items": [
+        {
+          "grade": "A",
+          "percentage": "[90 - 100]%"
+        },
+        {
+          "grade": "A-",
+          "percentage": "[85 - 90)%"
+        },
+        {
+          "grade": "B+",
+          "percentage": "[80 - 85)%"
+        },
+        {
+          "grade": "B",
+          "percentage": "[75 - 80)%"
+        },
+        {
+          "grade": "B-",
+          "percentage": "[70 - 75)%"
+        },
+        {
+          "grade": "C+",
+          "percentage": "[65 - 70)%"
+        },
+        {
+          "grade": "C",
+          "percentage": "[60 - 65)%"
+        },
+        {
+          "grade": "C-",
+          "percentage": "[55 - 60)%"
+        },
+        {
+          "grade": "D+",
+          "percentage": "[50 - 55)%"
+        },
+        {
+          "grade": "D",
+          "percentage": "[45 - 50)%"
+        },
+        {
+          "grade": "D-",
+          "percentage": "[40 - 45)%"
+        },
+        {
+          "grade": "F",
+          "percentage": "[0 - 40)%"
+        }
+      ]
+    },
+    "note": {
+      "text": "<strong>Note:</strong> These cutoffs represent grade minimums. We may adjust grades upward based on class participation, extra credit, etc. The grade of A+ will be awarded at the professor's discretion based on exceptional performance."
+    }
+  },
+  "learningOutcomes": {
+    "title": "Learning Outcomes",
+    "icon": "Target",
+    "iconColor": "teal",
+    "description": "In this course, students will learn theory and implementation behind artificial intelligence. As a result of the course work, students will be able to apply AI techniques to solve search problems. They will be able to compare and contrast different AI methods, and explain their reasoning. By the end of the class, students should be able to:",
+    "items": [
+      "Recall the steps and parts of developing an AI system (Russell and Norvig chapter 1).",
+      "Explain the differences between different search methods. (Quiz Module 1)",
+      "Interpret questions about AI methodologies (Quizzes + Finals).",
+      "Compare and contrast between the public perception of AI and the realistic expectations of AI (class discussion and exercises).",
+      "Differentiate between single-agent and multi-agent behaviors (Programming assignment P2).",
+      "Interpret values and optimization for an AI agent (Programming assignment P3).",
+      "Implement components of AI programs in python. (Programming assignments)",
+      "Judge whether an AI system is behaving reasonably (or not). (Programming assignment P3)",
+      "Create AI systems that can learn from experience and in dynamic environments and perform better than a set of baseline agents (Programming assignment P4)."
+    ]
+  },
+  "classParticipationAndAbsences": {
+    "title": "Class and Discussion Participation + Excused Absences",
+    "icon": "Users",
+    "iconColor": "indigo",
+    "sections": [
+      {
+        "title": "Class and Discussion Participation",
+        "content": [
+          "In this class, your accountability to your education will earn you points: showing up and participating will account for 5% of the grade. Class participation will be evaluated via the completion of in-class exercises that will be collected immediately after class.",
+          "Participation in class discussions and online discussions is highly encouraged.",
+          "If you must miss a class due an excused absence (see below), please let us know so this will not affect your class participation evaluation.",
+          "Since this is an in-person class, students must arrive on time to class. Cell phone use during class is not permitted; it not only distracts the student, it also distracts students around you."
+        ]
+      },
+      {
+        "title": "Excused Absences",
+        "content": [
+          "Any student who needs to be excused for a prolonged absence (2 or more consecutive class meetings), including the final exam must provide written documentation of the illness from the Health Center or from an outside health care provider. This documentation must verify dates of treatment and indicate the timeframe that the student was unable to meet academic responsibilities. No diagnostic information shall be given by Student Health Services to me. <strong>Excused absences do not extend your 7 late day budget.</strong>",
+          "Any student who must miss a class due to religious holidays should also notify the instructor in office hours or by emailing the Instructor and TAs during the first two weeks of class."
+        ]
+      }
+    ]
+  },
+  "assignmentsAndAssessment": {
+    "title": "Assignments and Assessment",
+    "icon": "FileText",
+    "iconColor": "pink",
+    "description": "The course will be structured around a set of learning modules. Each module will have an associated worksheet, available on Canvas. There will be a low-stakes quiz covering 2 modules at a time, and programming assignments.",
+    "sections": [
+      {
+        "title": "Worksheets",
+        "content": [
+          "Since much of AI is about problem solving, we will have worksheets to help you work through AI problems. The worksheets require not just reading and understanding the lecture, but will often require working out solutions to problems. It is highly suggested that you work these out on paper, this will be excellent practice and preparation for the quizzes and exam. Because of this, they will require a substantial amount of effort, so please plan accordingly.",
+          "<strong>No late worksheets will be accepted</strong>, however, your lowest worksheet score will be dropped."
+        ]
+      },
+      {
+        "title": "Quizzes",
+        "content": [
+          "The goal of this course is to prepare you for research or a professional career in Artificial Intelligence. With that in mind, the quizzes are excellent preparation for internship, grad school, and job interviews. There will be (approximately) biweekly quizzes, covering two modules at a time, and a final exam (no midterm). Quizzes will be in class, in the <strong>FIRST</strong> half of the lecture in person.",
+          "The quizzes are closed notes (No phones or laptops), and you are encouraged to use pencil and paper for scratch paper. No communication or collaboration is allowed on quizzes or exams. If you have any questions about what is acceptable and what is not, please ask.",
+          "<strong>No Cheat Sheets are allowed. We will be giving the same cheat sheet with the exam to everyone during the quiz / final exam. The cheat sheets are available in the Course Material page (No need to print them).</strong>",
+          "There will be no makeup quizzes, but your lowest quiz score will be dropped."
+        ]
+      },
+      {
+        "title": "Programming Assignments",
+        "content": [
+          "Programming assignments will be in Python. There will be an initial introductory programming assignment to familiarize you with Python (P0), three longer programming assignments to guide your AI brain (P1, P2, P3), and a final project that will put the knowledge you learned in the class to a test (P4). These programming assignments are challenging, and are not designed to be done in a single evening.",
+          "In the spirit of preparing you for a career in AI, there are reasons to start programming tasks early: many AI programs can take hours, days, or even months to run. We highly recommend starting the programming assignments as soon as possible."
+        ],
+        "gradingCriteria": {
+          "title": "Grading criteria for programming assignments",
+          "description": "For all programming assignments, we will grade you on both correctness and style. Here's a description of each category and the value that will be assigned:",
+          "items": [
+            "<strong>Correctness (20 points or 25 points):</strong> This is the portion of the grade we derive from the auto-grader. Note that the auto-grader assigns partial credit to solutions that are correct but do not perform as well (based on some specified criteria) as the best-proposed solution to date. This is the core of the assignment.",
+            "<strong>Style (5 points):</strong> Additionally, we will assign 5 points based on good coding practices such as: use of subroutines where possible, efficient implementation, and documentation where necessary.",
+            "All work submitted must be original."
+          ]
+        },
+        "latePolicy": {
+          "title": "Late Programming Assignments",
+          "content": [
+            "Unless otherwise stated, programming assignments are due electronically at <strong>11:59 pm PST</strong> on their respective due dates.",
+            "Recognizing that students may face unusual circumstances and require some flexibility in the course of the quarter, each student will have a total of <strong> seven free late (calendar) days</strong> to use as she/he/they sees fit; using a max of <strong>4 late days per assignment</strong>. (So grading can be completed in a timely manner).",
+            "Once these late days are exhausted, any assignment turned in late will be penalized at the rate of 25% per late day. Under no circumstances will a project be accepted more than four days after its due date.",
+            "<strong>Late Days cannot be used for the final assignment.</strong>"
+          ]
+        }
+      }
+    ]
+  },
+  "importantPolicies": {
+    "title": "Important Policies",
+    "icon": "Shield",
+    "iconColor": "red",
+    "sections": [
+      {
+        "title": "Re-Grading Issues",
+        "content": "The majority of the grading will be done by the TAs. If you think there has been a mistake in grading your homework or exam, please submit a regrade request explaining in writing, precisely and concisely, the grading error that has occurred, to the TA. Such request must be made <strong>no later than 1 week</strong> after the material in question was returned to the class. Any request to have an assignment regraded may result in the entire assignment in question being regraded, possibly resulting in a loss of points."
+      },
+      {
+        "title": "Academic Integrity",
+        "content": [
+          "In this course you are responsible for both the University's Code of Academic Integrity and the UCSC policies for acceptable computing use. Any evidence of unacceptable use of computer accounts, web resources, or unauthorized cooperation on tests, quizzes, or projects will be submitted to the Student Affairs, which could result in an XF for the course, suspension, or expulsion from the University.",
+          "For more details please see:"
+        ],
+        "link": {
+          "text": "Academic Integrity Details",
+          "url": "https://docs.google.com/document/d/1NICSzZWFTFWxLsFHdVf8oA4PT8EwJZg0tH4u_SvG-Sk/edit#heading=h.72t90jlgoosk"
+        }
+      },
+      {
+        "title": "Excused Absences",
+        "content": [
+          "Any student who needs to be excused for a prolonged absence (2 or more consecutive class meetings), the midterm or final exam must provide written documentation of the illness from the Health Center or from an outside health care provider. This documentation must verify dates of treatment and indicate the timeframe that the student was unable to meet academic responsibilities. No diagnostic information shall be given. <strong>Excused absences do not extend your 7 late day budget.</strong>",
+          "Any student eligible for and requesting reasonable academic accommodations due to a disability is requested to provide, to the instructor in office hours, a letter of accommodation from the Disability Resource Center (DRC) within the first two weeks of the quarter.",
+          "Any student who must miss a class due to religious holidays should also notify the instructor during the first two weeks of class."
+        ]
+      },
+      {
+        "title": "Support Resources",
+        "items": [
+          {
+            "text": "Accessibility",
+            "url": "https://docs.google.com/document/d/1NICSzZWFTFWxLsFHdVf8oA4PT8EwJZg0tH4u_SvG-Sk/edit#heading=h.72t90jlgoosk"
+          },
+          {
+            "text": "Student Support Services",
+            "url": "https://docs.google.com/document/d/1NICSzZWFTFWxLsFHdVf8oA4PT8EwJZg0tH4u_SvG-Sk/edit#heading=h.72t90jlgoosk"
+          }
+        ]
+      }
+    ]
+  }
+}
